@@ -183,7 +183,7 @@ def user_stats(df):
     except:
         print('\nThis dataset does not include user birth year')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds to compile." % (time.time() - start_time))
     print('-'*40)
 
 
