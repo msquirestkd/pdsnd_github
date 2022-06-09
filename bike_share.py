@@ -129,7 +129,7 @@ def station_stats(df):
     common_station_combo = df['Combo'].mode()[0]
     print('The most frequent combination of stations is {}.'.format(common_station_combo))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds to compile." % (time.time() - start_time))
     print('-'*40)
 
 
@@ -183,7 +183,7 @@ def user_stats(df):
     except:
         print('\nThis dataset does not include user birth year')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds to compile." % (time.time() - start_time))
     print('-'*40)
 
 
