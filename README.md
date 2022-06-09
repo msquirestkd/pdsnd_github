@@ -19,3 +19,6 @@ The Bike share file will read from csv data files and give results based on chos
 ### Credits
 The repo was forked from udacity/pdsnd_github
 
+
+### software required
+- python 3.9
